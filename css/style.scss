@@ -423,7 +423,7 @@ header {
 
       &:hover {
 
-        span {
+        .txt-heading {
           color: #fff;
           font-weight: 700;
         }
@@ -450,7 +450,7 @@ header {
         background-color: rgba(255,255,255,.2);
       }
 
-      span {
+      .txt-heading {
         display: block;
         margin-bottom: 3px;
         font-size: 1.6rem;
@@ -463,7 +463,7 @@ header {
 
     color: #fff;
 
-    span {
+    .txt-heading {
       font-weight: 700;
     }
 
@@ -1201,7 +1201,7 @@ header {
       }
 
       p {
-        color: #666;
+        color: rgb(15, 157, 186);
         background-color: #08111f;
         padding: 10px 0;
         font-weight: 500;

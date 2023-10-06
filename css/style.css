@@ -341,7 +341,7 @@ header .header-right select {
   cursor: pointer;
   vertical-align: top;
 }
-.visual-inner .btn label:hover span {
+.visual-inner .btn label:hover .txt-heading {
   color: #fff;
   font-weight: 700;
 }
@@ -364,7 +364,7 @@ header .header-right select {
   height: 2px;
   background-color: rgba(255, 255, 255, 0.2);
 }
-.visual-inner .btn label span {
+.visual-inner .btn label .txt-heading {
   display: block;
   margin-bottom: 3px;
   font-size: 1.6rem;
@@ -373,7 +373,7 @@ header .header-right select {
 .visual-inner input[id=tab1]:checked ~ .btn label[for=tab1], .visual-inner input[id=tab2]:checked ~ .btn label[for=tab2], .visual-inner input[id=tab3]:checked ~ .btn label[for=tab3], .visual-inner input[id=tab4]:checked ~ .btn label[for=tab4], .visual-inner input[id=tab5]:checked ~ .btn label[for=tab5], .visual-inner input[id=tab6]:checked ~ .btn label[for=tab6] {
   color: #fff;
 }
-.visual-inner input[id=tab1]:checked ~ .btn label[for=tab1] span, .visual-inner input[id=tab2]:checked ~ .btn label[for=tab2] span, .visual-inner input[id=tab3]:checked ~ .btn label[for=tab3] span, .visual-inner input[id=tab4]:checked ~ .btn label[for=tab4] span, .visual-inner input[id=tab5]:checked ~ .btn label[for=tab5] span, .visual-inner input[id=tab6]:checked ~ .btn label[for=tab6] span {
+.visual-inner input[id=tab1]:checked ~ .btn label[for=tab1] .txt-heading, .visual-inner input[id=tab2]:checked ~ .btn label[for=tab2] .txt-heading, .visual-inner input[id=tab3]:checked ~ .btn label[for=tab3] .txt-heading, .visual-inner input[id=tab4]:checked ~ .btn label[for=tab4] .txt-heading, .visual-inner input[id=tab5]:checked ~ .btn label[for=tab5] .txt-heading, .visual-inner input[id=tab6]:checked ~ .btn label[for=tab6] .txt-heading {
   font-weight: 700;
 }
 .visual-inner input[id=tab1]:checked ~ .btn label[for=tab1]:before, .visual-inner input[id=tab2]:checked ~ .btn label[for=tab2]:before, .visual-inner input[id=tab3]:checked ~ .btn label[for=tab3]:before, .visual-inner input[id=tab4]:checked ~ .btn label[for=tab4]:before, .visual-inner input[id=tab5]:checked ~ .btn label[for=tab5]:before, .visual-inner input[id=tab6]:checked ~ .btn label[for=tab6]:before {
@@ -963,7 +963,7 @@ header .header-right select {
   color: #eee;
 }
 .footer-wrap footer .down p {
-  color: #666;
+  color: rgb(15, 157, 186);
   background-color: #08111f;
   padding: 10px 0;
   font-weight: 500;

@@ -24,7 +24,7 @@ $blue-color: #326aff;
         width: 14vw;
         padding: 15px 0;
 
-        span {
+        .txt-heading {
           font-size: 1.4rem;
         }
       }
@@ -495,11 +495,11 @@ $blue-color: #326aff;
         width: 6vw;
         margin: 0;
 
-        p {
+        .txt-wrap {
           display: none;
         }
 
-        span {
+        .txt-heading {
           font-size: 1.6rem;
         }
       }
@@ -509,7 +509,7 @@ $blue-color: #326aff;
 
       width: 54vw;
 
-      p {
+      .txt-wrap {
         display: block;
       }
     }
@@ -972,7 +972,7 @@ $blue-color: #326aff;
 
       label {
 
-        span {
+        .txt-heading {
           font-size: 1.5rem;
         }
       }

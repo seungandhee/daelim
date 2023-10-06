@@ -6,7 +6,7 @@
     width: 14vw;
     padding: 15px 0;
   }
-  .visual-inner .btn label span {
+  .visual-inner .btn label .txt-heading {
     font-size: 1.4rem;
   }
   .search {
@@ -285,16 +285,16 @@
     width: 6vw;
     margin: 0;
   }
-  .visual-inner .btn label p {
+  .visual-inner .btn label .txt-wrap {
     display: none;
   }
-  .visual-inner .btn label span {
+  .visual-inner .btn label .txt-heading {
     font-size: 1.6rem;
   }
   .visual-inner input[id=tab1]:checked ~ .btn label[for=tab1], .visual-inner input[id=tab2]:checked ~ .btn label[for=tab2], .visual-inner input[id=tab3]:checked ~ .btn label[for=tab3], .visual-inner input[id=tab4]:checked ~ .btn label[for=tab4], .visual-inner input[id=tab5]:checked ~ .btn label[for=tab5], .visual-inner input[id=tab6]:checked ~ .btn label[for=tab6] {
     width: 54vw;
   }
-  .visual-inner input[id=tab1]:checked ~ .btn label[for=tab1] p, .visual-inner input[id=tab2]:checked ~ .btn label[for=tab2] p, .visual-inner input[id=tab3]:checked ~ .btn label[for=tab3] p, .visual-inner input[id=tab4]:checked ~ .btn label[for=tab4] p, .visual-inner input[id=tab5]:checked ~ .btn label[for=tab5] p, .visual-inner input[id=tab6]:checked ~ .btn label[for=tab6] p {
+  .visual-inner input[id=tab1]:checked ~ .btn label[for=tab1] .txt-wrap, .visual-inner input[id=tab2]:checked ~ .btn label[for=tab2] .txt-wrap, .visual-inner input[id=tab3]:checked ~ .btn label[for=tab3] .txt-wrap, .visual-inner input[id=tab4]:checked ~ .btn label[for=tab4] .txt-wrap, .visual-inner input[id=tab5]:checked ~ .btn label[for=tab5] .txt-wrap, .visual-inner input[id=tab6]:checked ~ .btn label[for=tab6] .txt-wrap {
     display: block;
   }
   .technology-inner ul {
@@ -542,7 +542,7 @@
     font-size: 1.4rem;
     width: 70vw;
   }
-  .visual-inner .btn label span {
+  .visual-inner .btn label .txt-heading {
     font-size: 1.5rem;
   }
   .smarttech-inner .hover-effect {
